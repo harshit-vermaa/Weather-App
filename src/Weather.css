@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  cursor: pointer;
+}
+.weather {
+  height: 400px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.weather_typewriter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.weather_typewriter h3 {
+  color: purple;
+}
+.weather_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: -25px;
+}
+.weather_info_Temp {
+  margin-top: -2px;
+  font-weight: 400;
+}
+.weather_info_minmax {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 250px;
+}
+.weather_info_cityName a {
+  text-decoration: none;
+  font-size: 50px;
+  font-family: "Dancing Script", cursive;
+  margin-top: 40px;
+  color: purple;
+}
+.weather_info_cityName a:hover {
+  transition: 0.2s;
+  color: rgb(148, 54, 230);
+  font-size: 55px;
+}
